@@ -1,0 +1,25 @@
+<Tela@MDFloatLayout>
+    MDTextField:
+        size_hint_x: .5
+        max_height: "200dp"
+        pos_hint: {"x":.2, "y":.5}
+        multiline: True
+        mode: "rectangle"
+        hint_text: "Digite o elementos da lista e pessione o ENTER"
+        id: lista
+    MDRaisedButton:
+        size_hint_x: .5
+        size_hint_y: .1
+        pos_hint: {"x":.2, "y":.4}
+        text: "Sortear"
+        on_press: root.sortearLista()
+    MDLabel:
+        size_hint_x: .5
+        size_hint_y: .1
+        pos_hint: {"x":.41, "y":.2}
+        text: ""
+        id: lb
+        font_size: '20sp'
+
+
+Tela
